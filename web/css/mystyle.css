@@ -1,0 +1,125 @@
+.form{
+	width: 365px;
+	margin: 10px auto;
+	background: #cecccc;
+	padding: 23px 10px;
+	border-radius: 10px 10px;
+}
+
+.form .form-control{
+	background: floralwhite;
+}
+.submit-btn{
+margin-left: 96px !important;
+}
+input{
+height: 50px !important;
+border: 1px solid #ccc !important;
+border-radius: 0 !important;
+font-size: 20px !important;
+}
+.form-page{
+background: url('../Image/image2.jpg');
+background-size:cover;
+    
+}
+.bg{
+    background: rgba(255,255,255,0.6);
+	margin-top: 5%;
+}
+.my-btn{
+    border: 2px solid #0825FB;
+    padding: 10px 20px;
+	margin-left: 35%;
+}
+.form .btn{
+	width:100%;
+}
+
+.userimg{
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+}
+
+body{ overflow-x:hidden;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Dosis', sans-serif;}
+.navbar-default {
+    background-color: #164156;
+    border-color: #e7e7e7;
+    height: 81px;
+	background-image:url('../img/bg.png');
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+	padding-bottom:5px;
+}
+.navbar-default .navbar-nav{ padding-top:28px; padding-bottom:5px;}
+.navbar-default .navbar-nav>li:hover {border-bottom:2px solid #fff;}
+.navbar-default .navbar-nav>li>a:hover{ color:#fff;}
+.navbar-default .navbar-brand {
+    color: #777;
+    padding: 0px;
+    margin: 5px 0px;
+    padding-left: 5px;
+}
+.dropdown, .dropdown-menu, .dropdown-header { cursor:pointer;}
+.what-we-do, .about-page { width:60%; margin:0 auto;}
+.what-we-do p{ text-align:justify;}
+.services{ background-image:url('../img/bricks-bg.png'); padding:20px 0px; margin-top:30px; text-align:center;}
+.services p{ text-align:justify;}
+.read-more {
+    background-color: #143D51;
+    color: #fff;
+}
+.read-more:hover{ background-color:#fff; color:#143D51; border:1px solid #143D51;}
+.owl-carousel-small { visibility:hidden; height:0px !important;}
+#owl-example img{ max-height:200px;}
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next { margin-top:20px;}
+.about-page{ margin-top:150px; text-align:justify;}
+.about-logo{ text-align:center;}
+.footer{ margin-top:120px;}
+.footer-img{
+    position: absolute;
+	margin-top:-57px;
+    width: 100%;
+    height: 100px;
+    background:url('../img/footer-img.png') 0 1px repeat-x;
+    left: 0;
+}
+
+footer h3{ margin-top:70px;}
+.footer .pull-right{ margin-top:-50px;}
+.contact-page, .project-page, .project-detail-page, .service-page{ margin-top:100px;}
+.contact-page textarea{ height:110px;}
+.contact-page form{  background-image:url('../img/bg1.png'); padding:10px; }
+.send{ width:100px; margin:0 auto;}
+.project { margin-top:20px;}
+.project img{ width:100%; height:220px;}
+.project-title{ text-align:center;background-color:#fff; color:#143D51; border:1px solid #143D51}
+.project a{ text-decoration:none;}
+.project-title:hover{ background-color:#164156; color:#fff;}
+.project-description p{ width:80%; margin:0 auto; text-align:justify; }
+.project-detail-page img{ width:100%; height:220px;}
+.featured-service-image{  margin:20px auto;}
+.featured-service-image img{ height:400px; width:100%;}
+.location-wall {background-image:url('../img/bricks-bg.png'); }
+.location{ margin:0 auto; width:200px; text-align:center;}
+.services{ margin-top:60px;}
+.services bxslider{ height:200px;}
+@media (max-width:767px){
+	.navbar-collapse {margin-top:29px;}
+	.navbar-nav { background-color:#143D51;background-image:url('../img/bg.png'); }
+	.navbar-default .navbar-nav {
+    padding-top: 5px; margin-top:0px; text-align:center;}
+	.navbar-nav li:hover { background-color:#fff; color:#143D51; border-bottom:2px solid #143D51;}
+	.navbar-default .navbar-nav>li>a:hover{ color:#143D51;}
+	.owl-carousel { visibility:hidden; height:0px !important;}
+.owl-carousel-small { visibility:visible; height:auto !important;}
+	}
+	
+
+
+	
