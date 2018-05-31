@@ -1,1 +1,1 @@
-# DiabetesPredictionSystem
+# DiabetesPredictionSystem Using Naive Bayes Classifier
